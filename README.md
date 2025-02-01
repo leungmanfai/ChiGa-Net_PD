@@ -1,1 +1,17 @@
-Automated neurodegenerative disease detection systems that integrate computer vision and machine learning (ML) provide non-invasive, cost-effective tools to assist neurologists in diagnosing and monitoring disorders like Parkinson’s disease (PD). Handwriting analysis plays a crucial role in the automated assessment of PD. Although many ML methods utilizing either automated or hand-crafted features—or a combination of both—have shown promising results in PD detection, they often suffer from overestimation bias and struggle to produce consistent results when tested on new, unseen datasets. To address these challenges, we propose a method that extracts more representative features, ensuring both trustworthiness and generalizability for real-time applications. We introduce ChiGa-Net, a novel framework that integrates the statistical score-based refined deep feature extraction with a genetically optimized neural network. To provide more practical results, this framework was trained and validated on a specific dataset, namely NewHandPD, and then rigorously tested on a new, unseen dataset, HandPD. Numerical experiments confirm the trustworthiness and generalizability of ChiGa-Net. For spiral images, the proposed approach achieves 92.56% balanced accuracy, 85.13% sensitivity, and 100% specificity during external testing. These results demonstrate superior performance compared to previously published methods and ML systems based on either deep learning or hand-crafted features. These findings suggest that the developed method yields reliable and generalizable results across diverse datasets, making it a robust and trustworthy tool for real-world clinical applications.
+# ChiGa-Net: A genetically optimized neural network with refined deeply extracted features using χ2 statistical score for trustworthy Parkinson’s disease detection
+
+This is a sample code for the ChiGa-Net algorithm, which has been published in Neurocomputing.
+
+## Citation
+
+If you find this code useful, please consider citing:
+```bibtex
+@article{ali2025chiga,
+  title={ChiGa-Net: A genetically optimized neural network with refined deeply extracted features using $\chi$2 statistical score for trustworthy Parkinson’s disease detection},
+  author={Ali, Liaqat and Leung, Man-Fai and Khan, Muhammad Asghar and Nour, Redhwan and Imrana, Yakubu and Vasilakos, Athanasios V},
+  journal={Neurocomputing},
+  pages={129450},
+  year={2025},
+  publisher={Elsevier}
+}
+```
